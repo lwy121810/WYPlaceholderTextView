@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9424520A1D15394700A85351 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 942452091D15394700A85351 /* main.m */; };
+		9424520D1D15394700A85351 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9424520C1D15394700A85351 /* AppDelegate.m */; };
+		942452101D15394700A85351 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9424520F1D15394700A85351 /* ViewController.m */; };
+		942452131D15394700A85351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942452111D15394700A85351 /* Main.storyboard */; };
+		942452151D15394700A85351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942452141D15394700A85351 /* Assets.xcassets */; };
+		942452181D15394700A85351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942452161D15394700A85351 /* LaunchScreen.storyboard */; };
+		942452231D15394700A85351 /* WYPlaceholderTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 942452221D15394700A85351 /* WYPlaceholderTextViewTests.m */; };
+		9424522E1D15394700A85351 /* WYPlaceholderTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9424522D1D15394700A85351 /* WYPlaceholderTextViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9424521F1D15394700A85351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942451FD1D15394700A85351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942452041D15394700A85351;
+			remoteInfo = WYPlaceholderTextView;
+		};
+		9424522A1D15394700A85351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942451FD1D15394700A85351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942452041D15394700A85351;
+			remoteInfo = WYPlaceholderTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		942452051D15394700A85351 /* WYPlaceholderTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYPlaceholderTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		942452091D15394700A85351 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9424520B1D15394700A85351 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9424520C1D15394700A85351 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9424520E1D15394700A85351 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9424520F1D15394700A85351 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		942452121D15394700A85351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		942452141D15394700A85351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		942452171D15394700A85351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		942452191D15394700A85351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9424521E1D15394700A85351 /* WYPlaceholderTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPlaceholderTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		942452221D15394700A85351 /* WYPlaceholderTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPlaceholderTextViewTests.m; sourceTree = "<group>"; };
+		942452241D15394700A85351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942452291D15394700A85351 /* WYPlaceholderTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPlaceholderTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9424522D1D15394700A85351 /* WYPlaceholderTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPlaceholderTextViewUITests.m; sourceTree = "<group>"; };
+		9424522F1D15394700A85351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942452021D15394700A85351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9424521B1D15394700A85351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942452261D15394700A85351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		942451FC1D15394700A85351 = {
+			isa = PBXGroup;
+			children = (
+				942452071D15394700A85351 /* WYPlaceholderTextView */,
+				942452211D15394700A85351 /* WYPlaceholderTextViewTests */,
+				9424522C1D15394700A85351 /* WYPlaceholderTextViewUITests */,
+				942452061D15394700A85351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		942452061D15394700A85351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942452051D15394700A85351 /* WYPlaceholderTextView.app */,
+				9424521E1D15394700A85351 /* WYPlaceholderTextViewTests.xctest */,
+				942452291D15394700A85351 /* WYPlaceholderTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		942452071D15394700A85351 /* WYPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				9424520B1D15394700A85351 /* AppDelegate.h */,
+				9424520C1D15394700A85351 /* AppDelegate.m */,
+				9424520E1D15394700A85351 /* ViewController.h */,
+				9424520F1D15394700A85351 /* ViewController.m */,
+				942452111D15394700A85351 /* Main.storyboard */,
+				942452141D15394700A85351 /* Assets.xcassets */,
+				942452161D15394700A85351 /* LaunchScreen.storyboard */,
+				942452191D15394700A85351 /* Info.plist */,
+				942452081D15394700A85351 /* Supporting Files */,
+			);
+			path = WYPlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		942452081D15394700A85351 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				942452091D15394700A85351 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		942452211D15394700A85351 /* WYPlaceholderTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				942452221D15394700A85351 /* WYPlaceholderTextViewTests.m */,
+				942452241D15394700A85351 /* Info.plist */,
+			);
+			path = WYPlaceholderTextViewTests;
+			sourceTree = "<group>";
+		};
+		9424522C1D15394700A85351 /* WYPlaceholderTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9424522D1D15394700A85351 /* WYPlaceholderTextViewUITests.m */,
+				9424522F1D15394700A85351 /* Info.plist */,
+			);
+			path = WYPlaceholderTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		942452041D15394700A85351 /* WYPlaceholderTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942452321D15394700A85351 /* Build configuration list for PBXNativeTarget "WYPlaceholderTextView" */;
+			buildPhases = (
+				942452011D15394700A85351 /* Sources */,
+				942452021D15394700A85351 /* Frameworks */,
+				942452031D15394700A85351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYPlaceholderTextView;
+			productName = WYPlaceholderTextView;
+			productReference = 942452051D15394700A85351 /* WYPlaceholderTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9424521D1D15394700A85351 /* WYPlaceholderTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942452351D15394700A85351 /* Build configuration list for PBXNativeTarget "WYPlaceholderTextViewTests" */;
+			buildPhases = (
+				9424521A1D15394700A85351 /* Sources */,
+				9424521B1D15394700A85351 /* Frameworks */,
+				9424521C1D15394700A85351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942452201D15394700A85351 /* PBXTargetDependency */,
+			);
+			name = WYPlaceholderTextViewTests;
+			productName = WYPlaceholderTextViewTests;
+			productReference = 9424521E1D15394700A85351 /* WYPlaceholderTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		942452281D15394700A85351 /* WYPlaceholderTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942452381D15394700A85351 /* Build configuration list for PBXNativeTarget "WYPlaceholderTextViewUITests" */;
+			buildPhases = (
+				942452251D15394700A85351 /* Sources */,
+				942452261D15394700A85351 /* Frameworks */,
+				942452271D15394700A85351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9424522B1D15394700A85351 /* PBXTargetDependency */,
+			);
+			name = WYPlaceholderTextViewUITests;
+			productName = WYPlaceholderTextViewUITests;
+			productReference = 942452291D15394700A85351 /* WYPlaceholderTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942451FD1D15394700A85351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lwy1218;
+				TargetAttributes = {
+					942452041D15394700A85351 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9424521D1D15394700A85351 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 942452041D15394700A85351;
+					};
+					942452281D15394700A85351 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 942452041D15394700A85351;
+					};
+				};
+			};
+			buildConfigurationList = 942452001D15394700A85351 /* Build configuration list for PBXProject "WYPlaceholderTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 942451FC1D15394700A85351;
+			productRefGroup = 942452061D15394700A85351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				942452041D15394700A85351 /* WYPlaceholderTextView */,
+				9424521D1D15394700A85351 /* WYPlaceholderTextViewTests */,
+				942452281D15394700A85351 /* WYPlaceholderTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		942452031D15394700A85351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942452181D15394700A85351 /* LaunchScreen.storyboard in Resources */,
+				942452151D15394700A85351 /* Assets.xcassets in Resources */,
+				942452131D15394700A85351 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9424521C1D15394700A85351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942452271D15394700A85351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		942452011D15394700A85351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942452101D15394700A85351 /* ViewController.m in Sources */,
+				9424520D1D15394700A85351 /* AppDelegate.m in Sources */,
+				9424520A1D15394700A85351 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9424521A1D15394700A85351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942452231D15394700A85351 /* WYPlaceholderTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942452251D15394700A85351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9424522E1D15394700A85351 /* WYPlaceholderTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		942452201D15394700A85351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942452041D15394700A85351 /* WYPlaceholderTextView */;
+			targetProxy = 9424521F1D15394700A85351 /* PBXContainerItemProxy */;
+		};
+		9424522B1D15394700A85351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942452041D15394700A85351 /* WYPlaceholderTextView */;
+			targetProxy = 9424522A1D15394700A85351 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		942452111D15394700A85351 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942452121D15394700A85351 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		942452161D15394700A85351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942452171D15394700A85351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		942452301D15394700A85351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		942452311D15394700A85351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		942452331D15394700A85351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYPlaceholderTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lwy.WYPlaceholderTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		942452341D15394700A85351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYPlaceholderTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lwy.WYPlaceholderTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		942452361D15394700A85351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYPlaceholderTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lwy.WYPlaceholderTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYPlaceholderTextView.app/WYPlaceholderTextView";
+			};
+			name = Debug;
+		};
+		942452371D15394700A85351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYPlaceholderTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lwy.WYPlaceholderTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYPlaceholderTextView.app/WYPlaceholderTextView";
+			};
+			name = Release;
+		};
+		942452391D15394700A85351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WYPlaceholderTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lwy.WYPlaceholderTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WYPlaceholderTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9424523A1D15394700A85351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WYPlaceholderTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lwy.WYPlaceholderTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WYPlaceholderTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		942452001D15394700A85351 /* Build configuration list for PBXProject "WYPlaceholderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942452301D15394700A85351 /* Debug */,
+				942452311D15394700A85351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942452321D15394700A85351 /* Build configuration list for PBXNativeTarget "WYPlaceholderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942452331D15394700A85351 /* Debug */,
+				942452341D15394700A85351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		942452351D15394700A85351 /* Build configuration list for PBXNativeTarget "WYPlaceholderTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942452361D15394700A85351 /* Debug */,
+				942452371D15394700A85351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		942452381D15394700A85351 /* Build configuration list for PBXNativeTarget "WYPlaceholderTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942452391D15394700A85351 /* Debug */,
+				9424523A1D15394700A85351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 942451FD1D15394700A85351 /* Project object */;
+}
