@@ -15,6 +15,7 @@
 		942452181D15394700A85351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942452161D15394700A85351 /* LaunchScreen.storyboard */; };
 		942452231D15394700A85351 /* WYPlaceholderTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 942452221D15394700A85351 /* WYPlaceholderTextViewTests.m */; };
 		9424522E1D15394700A85351 /* WYPlaceholderTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9424522D1D15394700A85351 /* WYPlaceholderTextViewUITests.m */; };
+		9424523D1D15396500A85351 /* WYPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9424523C1D15396500A85351 /* WYPlaceholderTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		942452291D15394700A85351 /* WYPlaceholderTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPlaceholderTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9424522D1D15394700A85351 /* WYPlaceholderTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPlaceholderTextViewUITests.m; sourceTree = "<group>"; };
 		9424522F1D15394700A85351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9424523B1D15396500A85351 /* WYPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPlaceholderTextView.h; sourceTree = "<group>"; };
+		9424523C1D15396500A85351 /* WYPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPlaceholderTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		942452071D15394700A85351 /* WYPlaceholderTextView */ = {
 			isa = PBXGroup;
 			children = (
+				9424523B1D15396500A85351 /* WYPlaceholderTextView.h */,
+				9424523C1D15396500A85351 /* WYPlaceholderTextView.m */,
 				9424520B1D15394700A85351 /* AppDelegate.h */,
 				9424520C1D15394700A85351 /* AppDelegate.m */,
 				9424520E1D15394700A85351 /* ViewController.h */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				942452101D15394700A85351 /* ViewController.m in Sources */,
+				9424523D1D15396500A85351 /* WYPlaceholderTextView.m in Sources */,
 				9424520D1D15394700A85351 /* AppDelegate.m in Sources */,
 				9424520A1D15394700A85351 /* main.m in Sources */,
 			);
@@ -498,6 +504,7 @@
 				942452341D15394700A85351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		942452351D15394700A85351 /* Build configuration list for PBXNativeTarget "WYPlaceholderTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				942452371D15394700A85351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		942452381D15394700A85351 /* Build configuration list for PBXNativeTarget "WYPlaceholderTextViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				9424523A1D15394700A85351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "WYPlaceholderTextView.h"
+
 
 @interface ViewController ()
 
@@ -17,6 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    WYPlaceholderTextView *text = [[WYPlaceholderTextView alloc] initWithFrame:CGRectMake(50, 100, 300, 400)];
+    [self.view addSubview:text];
+    text.backgroundColor = [UIColor lightGrayColor];
+    text.placeholder = @"我是textView， 但我有placeholder";
+    text.placeholderColor = [UIColor redColor];
+    text.placeholderFont = [UIFont systemFontOfSize:24];
 }
 
 - (void)didReceiveMemoryWarning {
