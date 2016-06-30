@@ -11,4 +11,4 @@
     text.placeholderFont = [UIFont systemFontOfSize:24];
 
 ####效果图
-WYPlaceholderTextViewGIF.gif
+![image](https://github.com/lwy121810/WYPlaceholderTextView/blob/master/Gif/WYPlaceholderTextViewGIF.gif) 
