@@ -1,7 +1,7 @@
 # WYPlaceholderTextView
 一个具有placeholder的textView ，继承自UITextView
-##UITextView本身没有placeholder的属性， 所以为了实现类似UITextField的placeholder效果，自定义了一个WYPlaceholderTextView，
-####使用方法跟普通UITextView一样
+#### UITextView本身没有placeholder的属性， 所以为了实现类似UITextField的placeholder效果，自定义了一个WYPlaceholderTextView，
+#### 使用方法跟普通UITextView一样
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
